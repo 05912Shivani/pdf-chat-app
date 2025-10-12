@@ -27,6 +27,7 @@ A web-based **PDF Chat application** that allows users to upload PDF files and i
 - Node.js  
 - Express  
 - Multer (for PDF uploads)  
-- LangChain / OpenAI API / HuggingFace API  
+- Cohere API for AI responses  
+- GROQ for structured queries  
 
 ---
