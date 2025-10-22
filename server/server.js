@@ -126,7 +126,7 @@ const embeddings = new CohereEmbeddings(process.env.COHERE_API_KEY);
 // -------------------- APP CONFIG --------------------
 app.use(
   cors({
-    origin: process.env.ALLOWED_ORIGINS,
+    origin: "https://pdf-chat-app-pxq7.onrender.com",
     credentials: true,
   })
 );
