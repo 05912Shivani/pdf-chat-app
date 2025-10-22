@@ -126,7 +126,7 @@ const embeddings = new CohereEmbeddings(process.env.COHERE_API_KEY);
 // -------------------- APP CONFIG --------------------
 app.use(
   cors({
-    origin: process.env.ALLOWED_ORIGINS || 'http://localhost:5173',
+    origin: process.env.ALLOWED_ORIGINS,
     credentials: true,
   })
 );
